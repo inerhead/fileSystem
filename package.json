@@ -1,19 +1,16 @@
 {
-  "name": "filesystem",
-  "version": "1.0.0",
-  "description": "",
-  "main": "file.js",
+  "name": "03-bases-node",
+  "version": "2.0.0",
+  "description": "Esta es una aplicación de línea de comando",
+  "main": "app.js",
   "scripts": {
-    "start": "nodemon file.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "author": "Fernando Herrera",
   "license": "ISC",
-  "devDependencies": {
-    "nodemon": "^2.0.12"
-  },
   "dependencies": {
-    "colors": "^1.4.0",
-    "yargs": "^17.1.1"
-  }
+    "colors": "^1.1.2",
+    "yargs": "^11.0.0"
+  },
+  "devDependencies": {}
 }
